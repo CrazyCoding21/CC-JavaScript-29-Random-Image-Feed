@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e1e1e1;
+}
+.title{
+    margin: 20px 0;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-container img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    max-width: 100%;
+}
